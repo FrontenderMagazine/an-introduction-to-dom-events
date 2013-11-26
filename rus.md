@@ -47,14 +47,14 @@ Explorer (IE) 8 или старше, рекомендую для управле�
 события вызываться в фазе «перехвата». (Не беспокойтесь, я объясню что это значит 
 немного позже)
 
-    var element = document.getElementById('element');
+        var element = document.getElementById('element');
 
-    function callback() {
-        alert('Привет');
-    }
+        function callback() {
+            alert('Привет');
+        }
 
-    // Добавление обработчика события
-    element.addEventListener('click', callback);
+        // Добавление обработчика события
+        element.addEventListener('click', callback);
 
 Пример: [addEventListener][4]
 
